@@ -1,7 +1,7 @@
 # wolf-native-rt
 
 A from-scratch **native DXR (D3D12) path tracer** for Wolfenstein (2009), Raven's
-D3D9 idTech4 fork. No RTX Remix, no dxvk. The game keeps rendering through
+D3D9 idTech4 fork. The game keeps rendering through
 Direct3D 9; we intercept its draw stream, reconstruct the scene each frame, and
 re-render it with hardware ray tracing.
 
