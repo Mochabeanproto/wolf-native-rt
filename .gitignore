@@ -1,0 +1,47 @@
+# --- Build output directories (all of them, incl. host/build) ---
+build/
+build_lego/
+build_msm/
+
+# --- Game-specific ports (extraction clients; not part of the core raytracer) ---
+lego-port/
+msm-port/
+
+# --- Third-party SDKs (fetched separately; see README) ---
+# SHARC ships under the NVIDIA RTX SDK license -- not redistributed here.
+third_party/
+
+# --- Proprietary NVIDIA runtime redistributables ---
+nvngx_*.dll
+
+# --- Compiled / linker artifacts ---
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# --- Compiled shaders ---
+*.cso
+
+# --- Captures, dumps, logs ---
+*.log
+*.png
+*.tga
+*.bmp
+
+# --- Port client link stubs left in the root ---
+lego_client.*
+lego_probe.*
+msm_client.*
+msm_probe.*
+hooks.exp
+hooks.lib
+
+# --- Editor / OS cruft ---
+.vs/
+*.user
+Thumbs.db
+.DS_Store
