@@ -105,6 +105,8 @@ diagnostics and features (e.g. `WOLF_DBG`, `WOLF_PERF`, `WOLF_NOSHARC`,
 
 ## Status / notes
 
+**some items on the list may be wip**
+
 - Implemented: geometry + material extraction, primary rays, PBR direct lighting
   (sun + recovered local lights), sky dome + cloud layers + live sky env map,
   path-traced diffuse GI (SHARC), ReSTIR DI, particles (CPU-expanded billboards),
